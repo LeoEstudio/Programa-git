@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #2a4fa2;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.figura {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.figura h2 {
+  color: #2a4fa2;
+}
+
+.figura label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input[type=\"number\"] {
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #2a4fa2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #1e3b7f;
+}
+
+footer {
+  background-color: #dde1e9;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+.grupo {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  color: #1c3261;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}

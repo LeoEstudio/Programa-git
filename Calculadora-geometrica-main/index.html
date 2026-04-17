@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de Figuras Geométricas</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Calculadora de Figuras Geométricas</h1>
+    <p>Hecho por Leonardo Escobar</p>
+  </header>
+
+  <main>
+    <h2 class="grupo">Figuras Planas</h2>
+    <section class="figura">
+      <h3>Trapecio</h3>
+      <label>Base mayor: <input type="number" id="trap-base1"></label>
+      <label>Base menor: <input type="number" id="trap-base2"></label>
+      <label>Altura: <input type="number" id="trap-altura"></label>
+      <label>Lado 1: <input type="number" id="trap-lado1"></label>
+      <label>Lado 2: <input type="number" id="trap-lado2"></label>
+      <button onclick="calcularTrapecio()">Calcular</button>
+      <p id="resultado-trapecio"></p>
+    </section>
+
+    <section class="figura">
+      <h3>Pentágono Regular</h3>
+      <label>Lado (a): <input type="number" id="pent-lado"></label>
+      <label>Apotema: <input type="number" id="pent-apotema"></label>
+      <button onclick="calcularPentagono()">Calcular</button>
+      <p id="resultado-pentagono"></p>
+    </section>
+
+    <section class="figura">
+      <h3>Rombo</h3>
+      <label>Diagonal mayor (D): <input type="number" id="rombo-D"></label>
+      <label>Diagonal menor (d): <input type="number" id="rombo-d"></label>
+      <label>Lado: <input type="number" id="rombo-lado"></label>
+      <button onclick="calcularRombo()">Calcular</button>
+      <p id="resultado-rombo"></p>
+    </section>
+
+    <h2 class="grupo">Figuras Sólidas</h2>
+    <section class="figura">
+      <h3>Cubo</h3>
+      <label>Lado: <input type="number" id="cubo-lado"></label>
+      <button onclick="calcularCubo()">Calcular</button>
+      <p id="resultado-cubo"></p>
+    </section>
+
+    <section class="figura">
+      <h3>Esfera</h3>
+      <label>Radio: <input type="number" id="esfera-radio"></label>
+      <button onclick="calcularEsfera()">Calcular</button>
+      <p id="resultado-esfera"></p>
+    </section>
+
+    <section class="figura">
+      <h3>Cilindro</h3>
+      <label>Radio: <input type="number" id="cilindro-radio"></label>
+      <label>Altura: <input type="number" id="cilindro-altura"></label>
+      <button onclick="calcularCilindro()">Calcular</button>
+      <p id="resultado-cilindro"></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Figuras Geométricas - Leonardo Escobar
+  </footer>
+</body>
+</html>
